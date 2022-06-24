@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background: linear-gradient(blue, goldenrod, red);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1000px;
+  height: 1200px;
+}
+
+#container {
+  margin: 20px;
+  display: grid; 
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+
+.carousel-slide {
+  margin:auto;
+  width:500px;
+  height: 500px;
+}
+
+#resetButton {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
